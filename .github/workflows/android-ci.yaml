@@ -30,3 +30,14 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/gradle-build-action@v2
+
+      - name: Build Apk
+        uses: ./gradlew assembleDebug
+        
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pembelajaran-mesin-debug-apk
+          path: apk-build/outputs/apk/debug/*.apk
+
+  
