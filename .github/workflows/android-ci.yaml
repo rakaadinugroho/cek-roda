@@ -33,3 +33,11 @@ jobs:
 
       - name: Build Apk
         uses: ./gradlew assembleDebug
+        
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pembelajaran-mesin-debug-apk
+          path: apk-build/outputs/apk/debug/*.apk
+
+  
