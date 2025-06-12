@@ -38,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cek-roda-app
-          path: app/build/output/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/*.apk
