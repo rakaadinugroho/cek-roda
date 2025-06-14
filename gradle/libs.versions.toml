@@ -1,8 +1,4 @@
 [versions]
-firebaseCrashlytics = "19.4.3"
-googleGmsGoogleServices = "4.4.2"
-googleFirebaseCrashlytics = "3.0.3
-
 agp = "8.5.2"
 kotlin = "1.9.10"
 coreKtx = "1.15.0"
@@ -19,6 +15,9 @@ accompanist = "0.33.0-alpha"
 navigation = "2.7.6"
 koin = "3.5.0"
 koin_compose = "4.0.0"
+firebaseCrashlytics = "19.4.3"
+googleGmsGoogleServices = "4.4.2"
+googleFirebaseCrashlytics = "3.0.3
 
 [libraries]
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebaseCrashlytics" }
